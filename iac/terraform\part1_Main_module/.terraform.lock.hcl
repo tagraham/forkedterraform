@@ -1,6 +1,29 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
+provider "registry.terraform.io/cloud-maker-ai/arm2tf" {
+  version     = "0.2.2"
+  constraints = "0.2.2"
+  hashes = [
+    "h1:RE+P4cYj67WGO7Kdy11xoIHLAcxZQMdmhhNJ3cvEDik=",
+    "zh:02d8422c8f33e581d3b0e2ee90311a14e29f4b914e4eaacda3e82ffbf4b5d2b6",
+    "zh:0328d63e4ed70610e8b389c1a20e2c8dbf35504c7830efc72f82c7b2eaac45b5",
+    "zh:2914bd6d1227e10670d97a45ee8d68ef9b78a5481eb990f510ab442e6ac9d8f9",
+    "zh:401015887f2dc93f7cf87780327f948a6ba5ee24a216fc293a7f691e170dae28",
+    "zh:45186b172e44c7b308e3c30336aa4be97d849828681567280a824dede5cf18b3",
+    "zh:6e00fefe830b55a362f18acb8194637320feea9ee053380e7523d938eb74c6ba",
+    "zh:85a37c47733b6972f5e9a1841d08ee10fa3c1c477522567702fbce0274147664",
+    "zh:8bc8f61e496e96c81c46e1aa59bf2155b6acc80db1ea462f2ddd665748fcda7f",
+    "zh:8ecc7078fac082310187721517d9f1a300eec415ac28ed59d60bbe5ecb80f042",
+    "zh:b074546eb1708b9e01572279d93cd480414487f271a4d0d2f1a0058730864b9c",
+    "zh:b0f923b1392054ca43cc010a41aa1bd4bd398f5ab60f03f9ae1c6851973f4c0c",
+    "zh:b2fa0f0162569c356c0fc2706466e61ddf7aaad590d85953a787119ede0d7db4",
+    "zh:d7a20144d91ed9f8c71fb20b0242c51671a3932be04c1313e0942b6fa9e3b195",
+    "zh:ea30cf91ae85da3ae776593db7b99a7e50a360d6dcf15f121d9770d930d9f5cc",
+    "zh:fdfc7535151914778e1483d2b61ebe0c287e0f7a10fe6d4765b3f8e853d4268c",
+  ]
+}
+
 provider "registry.terraform.io/hashicorp/azurerm" {
   version     = "3.86.0"
   constraints = "~> 3.0"
